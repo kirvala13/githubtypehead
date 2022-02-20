@@ -1,0 +1,28 @@
+.popup{
+    background-color: #394969;
+    width: 400px;
+    margin-top: 0.5rem;
+    padding: 10px 0px;
+}
+.popup-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+.popup-container img{
+    width: 50px;
+    border-radius: 50%;
+}
+.popup-container a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 4px 10px;
+}
+
+@media(max-width:450px){
+    .popup{
+        width: 70%;
+    }
+}

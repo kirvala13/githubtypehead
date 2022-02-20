@@ -1,0 +1,43 @@
+.users{
+     padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 31, 31);
+    margin: 10px;
+}
+.result-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0rem 10px;
+    position: relative;
+}
+.users img{
+    width: 100px;
+    border-radius: 50%;
+}
+.row{
+    flex-direction: column;
+    margin-left: 10px;
+}
+.row a{
+    text-decoration: none;
+    background-color: rgb(80, 80, 182);
+    padding: 4px 10px;
+    text-align: center;
+    color: white;
+}
+
+.clear__button{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    border: none;
+    outline: none;
+    padding: 5px 12px;
+    background-color: gray;
+    color: white;
+}
